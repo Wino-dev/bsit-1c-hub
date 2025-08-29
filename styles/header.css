@@ -34,3 +34,9 @@
     height: 50px;
   }
 }
+
+@media (min-width: 980px) {
+  .hmg-img {
+    display: none;
+  }
+}

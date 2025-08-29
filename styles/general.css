@@ -12,3 +12,18 @@ body {
 @media (min-width: 430px) {
 
 }
+
+@media (min-width: 980px) {
+  .front-page {
+    display: flex;
+  }
+
+  .announce-general {
+    flex: 6;
+  }
+
+  .features-container {
+    flex: 4;
+  }
+
+}
