@@ -1,0 +1,32 @@
+@media (min-width: 0px) {
+  .sidemenu-container{
+    display: none;
+  }
+
+  .sidemenu-container.sidemenu-on {
+    display: block;
+  }
+
+  .sidemenu-options {
+    position: fixed;
+    left: 0px;
+    right: 30%;
+    top: 50px;
+    bottom: 0px;
+    background-color: white;
+  }
+
+  .sidemenu-shade {
+    left: 70%;
+    right: 0px;
+    top: 50px;
+    bottom: 0px;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.50);
+  }
+}
+
+@media (min-width: 900px) {
+
+}
+

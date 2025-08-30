@@ -1,9 +1,11 @@
-body {
-  font-family: "Lexend", Arial;
-  font-size: 14px;
-}
+
 
 @media (min-width: 0px) {
+  body {
+    font-family: "Lexend", Arial;
+    font-size: 14px;
+  }
+
   .front-page {
     margin-top: 70px;
   }

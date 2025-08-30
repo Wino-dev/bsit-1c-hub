@@ -1,20 +1,14 @@
-.header {
-  display: flex;
-  position: fixed;
-  background-color: #003459;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  align-items: center;
-}
 
-.header-text {
-  margin-left: 15px;
-  color: white;
-}
 
 @media (min-width: 0px) {
   .header {
+    display: flex;
+    position: fixed;
+    background-color: #003459;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    align-items: center;
     height: 60px;
   }
 
@@ -26,6 +20,11 @@
 
   .latest-announcement-header {
     margin-top: 70px;
+  }
+
+  .header-text {
+    margin-left: 15px;
+    color: white;
   }
 }
 

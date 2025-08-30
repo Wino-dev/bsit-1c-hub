@@ -1,27 +1,16 @@
-.feature-hls {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content:space-evenly;
-  gap: 3em;
-}
-
-.feature-hl-container { 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid black;
-  border-radius: 20px;
-  padding: 5px 5px 5px 5px;
-  gap: 20px;
-}
-
 @media (min-width: 0px) {
   .features-intro {
     display: flex;
     flex-direction: column;
     text-align: center;
     margin-top: 40px;
+  }
+
+  .feature-hls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    gap: 3em;
   }
 
   .features-intro-h {
@@ -37,6 +26,14 @@
   .feature-hl-container {
     width: 200px;
     height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px 5px 5px 5px;
+    gap: 20px;
   }
   
   .hl-img {
