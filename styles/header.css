@@ -35,14 +35,17 @@
   }
 }
 
-@media (min-width: 430px) {
+@media (min-width: 980px) {
   .header {
     height: 50px;
   }
-}
-
-@media (min-width: 980px) {
   .hmg-img {
     display: none;
+  }
+
+  .seclogo {
+    margin-left: 20px;
+    width: 35px;
+    height: 35px;
   }
 }

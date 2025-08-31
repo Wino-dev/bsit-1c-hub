@@ -1,0 +1,20 @@
+@media (min-width: 0px) {
+  .title {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .desc {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 980px) {
+  
+}

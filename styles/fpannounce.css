@@ -65,6 +65,9 @@
 }
 
 @media (min-width: 980px) {
+  .announce-general {
+    flex: 6;
+  }
   .announce-banner {
     font-size: 40px;
   }

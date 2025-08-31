@@ -1,0 +1,11 @@
+@media (min-width: 0px) {
+  .front-page {
+    margin-top: 70px;
+  }
+}
+
+@media (min-width: 980px) {
+  .front-page {
+    display: flex;
+  }
+}

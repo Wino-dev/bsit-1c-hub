@@ -70,4 +70,8 @@
     font-size: 21px;
     text-align: center;
   }
+
+  .features-container {
+    flex: 4;
+  }
 }
