@@ -21,6 +21,10 @@
     overflow: hidden;
   }
 
+  .announce-container.secondary {
+    display: none;
+  }
+
   .announce-title-text {
     overflow-wrap: break-word;
     font-size: 20px;
@@ -53,6 +57,7 @@
   .announce-type {
     color: rgb(90, 90, 90);
   }
+
 }
 
 @media (min-width: 430px) {
@@ -60,4 +65,11 @@
 }
 
 @media (min-width: 980px) {
+  .announce-banner {
+    font-size: 40px;
+  }
+
+  .announce-container.secondary {
+    display: flex;
+  }
 }

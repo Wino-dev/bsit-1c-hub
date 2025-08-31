@@ -18,13 +18,15 @@
   </head>
   <body>
     <div class="header">
-      <div class="hmb-menu-container">
-        <img class="hmg-img" src="images/hamburger-icon.png">
-      </div>
-      <div class="header-text">1C HUB</div>
     </div>
-    <div class="sidemenu-container">
-      <div class="sidemenu-options"></div>
+    <div class="sidemenu-container-mobile">
+      <div class="sidemenu-options">
+        <div class="sidemenu-home sidemenu-option">Home</div>
+        <div class="sidemenu-announcements sidemenu-option">Announcements</div>
+        <div class="sidemenu-calculator sidemenu-option">Grades & GWA Calculator</div>
+        <div class="sidemenu-checklist sidemenu-option">Requirement Checklist</div>
+        <div class="sidemenu-reviewers sidemenu-option">Reviewers</div>
+      </div>
       <div class="sidemenu-shade"></div>
     </div>
     <div class="front-page">
@@ -39,6 +41,16 @@
             <div class="announce-type">TSTSB (Test Subject)</div>
           </div>
         </div>
+        <div class="announce-container secondary">
+          <div class="announce-title-container">
+            <div class="announce-title-text">Index Card Due Tommorow</div>
+          </div>
+          <div class="announce-subtitle">
+            <div class="announce-details">Test deets</div>
+            <div class="announce-type">TSTSB (Test Subject)</div>
+          </div>
+        </div>
+
       </div>
       <div class="features-container">
         <div class="features-intro">
@@ -46,20 +58,20 @@
           <div class="features-intro-sh">Listed below are the features and pages the website has.</div>
         </div>
         <div class="feature-hls">
-          <div class="feature-hl-container">
-            <img class="announcement-img hl-img" src="images/announcement-icon.png">
-            <div class="feature-title">Announcements</div>
+          <div class="feature-hl-container announcements-fp">
+            <img class="announcements-img hl-img" src="images/announcement-icon.png">
+            <div class="feature-title">Announcements</div> 
           </div>
-          <div class="feature-hl-container">
+          <div class="feature-hl-container calculator-fp">
             <img class="calculator-img hl-img" src="images/calculator-logo.svg">
             <div class="feature-title">Grades and GWA Calculator</div>
           </div>
-          <div class="feature-hl-container">
-            <img class="calculator-img hl-img" src="images/requirement-logo.png">
+          <div class="feature-hl-container checklist-fp">
+            <img class="requirement-img hl-img" src="images/requirement-logo.png">
             <div class="feature-title">Requirement Checklist</div>
           </div>
-          <div class="feature-hl-container">
-            <img class="calculator-img hl-img" src="images/reviewers-icon.svg">
+          <div class="feature-hl-container reviewers-fp">
+            <img class="reviewer-img hl-img" src="images/reviewers-icon.svg">
             <div class="feature-title">Reviewers</div>
           </div>
 
@@ -67,6 +79,6 @@
       </div>
     </div>
 
-    <script src="scripts/frontpage.js"></script>
+    <script src="scripts/index.js" type="module"></script>
   </body>
 </html>
