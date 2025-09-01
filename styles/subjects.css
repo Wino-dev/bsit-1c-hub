@@ -16,9 +16,14 @@
     text-align: center;
     height: 200px;
     width: 200px;
-    border: 1px solid black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.30);
     padding: 10px;
     border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .subject-hl:hover {
+    background-color: rgb(203, 203, 203);
   }
 
   .subj-hl-img {

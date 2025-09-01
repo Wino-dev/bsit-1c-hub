@@ -3,7 +3,7 @@ export function processSubjectSelect() {
     subject.addEventListener('click', () => {
       const subjectCode = subject.dataset.subjectCode;
       localStorage.setItem('subjectCode', subjectCode);
-      location.href = 'reviewers-list.html';
+      location.href = './reviewers-list.html';
     });
   })
 }

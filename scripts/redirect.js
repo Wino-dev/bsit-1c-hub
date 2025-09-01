@@ -1,21 +1,21 @@
 export function redirectHome () {
-  location.href = '../index.html';
+  location.href = './index.html';
 };
 
 export function redirectAnnouncements() {
-  location.href = '../announcements.html';
+  location.href = './announcements.html';
 };
 
 export function redirectCalculator() {
-  location.href = '../calculator.html';
+  location.href = './calculator.html';
 };
 
 export function redirectChecklist() {
-  location.href = '../checklist.html';
+  location.href = './checklist.html';
 };
 
 export function redirectReviewers() {
-  location.href = '../reviewers.html';
+  location.href = './reviewers.html';
 };
 
 export function checkCurrentSite(pathname, redirectFunc) {
