@@ -16,12 +16,10 @@
     <link rel="stylesheet" href="styles/sidemenu.css">
     <link rel="stylesheet" href="styles/sidebar.css">
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/reviewers.css">
-    <link rel="stylesheet" href="styles/subjects.css">
+    <link rel="stylesheet" href="styles/reviewers-list.css">
   </head>
   <body>
-    <div class="header">
-    </div>
+    <div class="header"></div>
     <div class="sidemenu-container-mobile">
       <div class="sidemenu-options">
         <div class="sidemenu-home sidemenu-option">Home</div>
@@ -32,16 +30,36 @@
       </div>
       <div class="sidemenu-shade"></div>
     </div>
-
-    <div class="sidebar-container">
     </div>
+    <div class="sidebar-container"></div>
 
     <div class="main">
-      <div class="title">REVIEWERS</div>
-      <div class="desc">Subjects</div>
-      <div class="subject-container"></div>
+      <div class="reviewers-list-main">
+        <div class="go-back-button">
+          <div class="go-back-button-text">Go Back</div>
+          <img class="go-back-button-img" src="images/undo-icon.svg">
+        </div>
+        <div class="subject-title">Test Title</div>
+        <div class="subject-desc">Press on any file to download</div>
+        <div class="reviewers-container">
+          <div class="reviewer-type-divider reviewers-pdf">
+            <div class="reviewer-label">
+              <div class="reviewer-label-text">PDF</div>
+              <img class="reviewer-label-img" src="images/pdf-icon.svg">
+            </div>
+            <div class="pdf-container"></div>
+          </div>
+          <div class="reviewer-type-divider reviewers-apkg">
+            <div class="reviewer-label">
+              <div class="reviewer-label-text">APKG</div>
+              <img class="reviewer-label-img" src="images/anki-icon.svg">
+            </div>
+            <div class="apkg-container"></div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <script src="scripts/reviewers.js" type="module"></script>
+    <script src="scripts/reviewersList.js" type="module"></script>
   </body>
 </html>

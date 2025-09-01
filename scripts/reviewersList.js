@@ -3,15 +3,11 @@ import { sideMenuToggle } from "./sideMenuToggle.js";
 import { initSideMenuHyperlinks } from "./sideMenuHyperlinks.js";
 import { renderSidebar } from "./render/renderSidebar.js";
 import { initSideBarHyperlinks } from "./sideBarHyperlinks.js";
-import { renderSubjectContainer } from "./render/renderSubjectContainer.js";
-import { processSubjectSelect } from "./reviewerTypeSelect.js";
+import { renderReviewersList } from "./render/renderReviewersList.js";
 
 renderHeader();
 renderSidebar();
-renderSubjectContainer();
 sideMenuToggle();
 initSideMenuHyperlinks();
 initSideBarHyperlinks();
-processSubjectSelect();
-
-
+renderReviewersList();

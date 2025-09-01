@@ -48,11 +48,6 @@
 
 }
 
-@media (min-width: 430px) {
-  .sidemenu-options, .sidemenu-shade {
-    top: 50px;
-  }
-}
 
 @media (min-width: 980px) {
   .sidemenu-container-mobile, .sidemenu-container-mobile.sidemenu-on {

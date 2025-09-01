@@ -1,13 +1,15 @@
 @media (min-width: 0px) {
   .main {
-    margin-top: 80px;
+    margin-top: 50px;
   }
+
 
 }
 
 @media (min-width: 980px) {
   .main {
-    margin-left: 100px;
+    margin-left: 91px;
+
   }
 }
 
